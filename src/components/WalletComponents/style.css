@@ -1,0 +1,77 @@
+.flexxx{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width : 880px ) {
+    .flexxx{
+    flex-direction: column;
+    }
+}
+@media screen and (max-width : 700px ) {
+    .fr{
+        display: none;
+    }
+}
+.fr{
+    float: left;
+    position: absolute;
+    left: 180px;
+    margin: auto;
+    padding-top: 2px;
+}
+.fl{
+    float: left;
+}
+.w-s{
+    width: 175px;
+}
+
+.MuiFormControl-root.MuiTextField-root {
+    max-width: 330px;
+    width: 100%!important;
+}
+
+.liquidity_button_size {
+    max-width: 330px;
+    width: 100% ! important;
+}
+
+.th_height_font tr th, .th_height_font tr td{
+    font-size: 1rem;
+    line-height: unset;
+}
+
+@media screen and (max-width : 500px ) {
+    .box-mt-8 form:first-child > div {
+    margin-left: 0px !important;
+}
+.w-pagenation div:first-child{
+ display: flex!important;
+ overflow: auto;
+ 
+}
+.box-mt-8 div:first-child {
+    flex-direction: row;
+    display: block;
+}
+
+.box-mt-8 form:last-child {
+    width: 100%;
+    margin-left: 0px !important;
+}
+
+.box-mt-8 form:last-child > div {
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+
+.box-mt-8 form:last-child > div > div{
+    width: 100% !important;
+}
+
+.box-mt-8 form:first-child > div > div {
+    width: 100% !important;
+}
+}
+
